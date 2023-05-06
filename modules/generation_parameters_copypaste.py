@@ -229,7 +229,7 @@ def parse_generation_parameters(x: str):
 ```
 girl with an artist's beret, determined, blue eyes, desert scene, computer monitors, heavy makeup, by Alphonse Mucha and Charlie Bowater, ((eyeshadow)), (coquettish), detailed, intricate
 Negative prompt: ugly, fat, obese, chubby, (((deformed))), [blurry], bad anatomy, disfigured, poorly drawn face, mutation, mutated, (extra_limb), (ugly), (poorly drawn hands), messy drawing
-Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 965400086, Size: 512x512, Model hash: 45dee52b
+Steps: 20, Sampler: Euler a, 相似度: 7, Seed: 965400086, Size: 512x512, Model hash: 45dee52b
 ```
 
     returns a dict with field values
