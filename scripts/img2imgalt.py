@@ -133,7 +133,7 @@ class Script(scripts.Script):
         * `CFG Scale` should be 2 or lower.
         ''')
 
-        override_sampler = gr.Checkbox(label="Override `Sampling method` to Euler?(this method is built for it)", value=True, elem_id=self.elem_id("override_sampler"))
+        override_sampler = gr.Checkbox(label="Override `采样方法` to Euler?(this method is built for it)", value=True, elem_id=self.elem_id("override_sampler"))
 
         override_prompt = gr.Checkbox(label="Override `prompt` to the same value as `original prompt`?(and `negative prompt`)", value=True, elem_id=self.elem_id("override_prompt"))
         original_prompt = gr.Textbox(label="Original prompt", lines=1, elem_id=self.elem_id("original_prompt"))
