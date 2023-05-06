@@ -1,7 +1,7 @@
 // mouseover tooltips for various UI elements
 
 titles = {
-    "Sampling steps": "How many times to improve the generated image iteratively; higher values take longer; very low values can produce bad results",
+    "采样步数": "How many times to improve the generated image iteratively; higher values take longer; very low values can produce bad results",
     "采样方法": "Which algorithm to use to produce the image",
 	"GFPGAN": "Restore low quality faces using GFPGAN neural network",
 	"Euler a": "Euler Ancestral - very creative, each can get a completely different picture depending on step count, setting steps higher than 30-40 does not help",
