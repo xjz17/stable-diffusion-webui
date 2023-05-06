@@ -466,7 +466,7 @@ def create_infotext(p, all_prompts, all_seeds, all_subseeds, comments=None, iter
     generation_params = {
         "Steps": p.steps,
         "Sampler": p.sampler_name,
-        "相似度": p.cfg_scale,
+        "CFG Scale": p.cfg_scale,
         "Image CFG Scale": getattr(p, 'image_cfg_scale', None),
         "Seed": all_seeds[index],
         "Face restoration": (opts.face_restoration_model if p.restore_faces else None),

@@ -130,7 +130,7 @@ class Script(scripts.Script):
 
     def ui(self, is_img2img):
         info = gr.Markdown('''
-        * `相似度` should be 2 or lower.
+        * `CFG Scale` should be 2 or lower.
         ''')
 
         override_sampler = gr.Checkbox(label="Override `Sampling method` to Euler?(this method is built for it)", value=True, elem_id=self.elem_id("override_sampler"))
@@ -208,7 +208,7 @@ class Script(scripts.Script):
 
         p.extra_generation_params["Decode prompt"] = original_prompt
         p.extra_generation_params["Decode negative prompt"] = original_negative_prompt
-        p.extra_generation_params["Decode 相似度"] = cfg
+        p.extra_generation_params["Decode CFG Scale"] = cfg
         p.extra_generation_params["Decode steps"] = st
         p.extra_generation_params["Randomness"] = randomness
         p.extra_generation_params["Sigma Adjustment"] = sigma_adjustment
